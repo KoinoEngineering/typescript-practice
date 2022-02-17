@@ -1,0 +1,33 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "typescript練習用",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "ts-node": "ts-node src/index.ts",
+    "build": "tsc",
+    "prettier": "prettier --write",
+    "lint": "eslint --ext \".ts,.js\" .",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoinoEngineering/typescript-practice.git"
+  },
+  "author": "KoinoEngineering",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KoinoEngineering/typescript-practice/issues"
+  },
+  "homepage": "https://github.com/KoinoEngineering/typescript-practice#readme",
+  "dependencies": {
+    "prettier": "^2.5.1",
+    "ts-node": "^10.5.0"
+  }
+}

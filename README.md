@@ -1,2 +1,3 @@
 # typescript-practice
-typescript練習用
+
+typescript 練習用
