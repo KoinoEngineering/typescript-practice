@@ -17,23 +17,22 @@ console.log(i+=3)  // -> ？
 console.log(--i)  // -> ？
 console.log(i-=5)  // -> ？
 
-for ( let count=1; count<=100; count++ ) {
+for ( let count　=　1; count　<=　100; count++ ) {
     console.log(count)
 }
 
 
-let F="Fizz"
-let B="Buzz"
-for ( let count=1; count<=100; count++ ) {
-    if(count%3==0&&count%5==0){
-        console.log(F+B)}
+for ( let count　=1; count　<=　100; count++ ) {
+    if(count %　3==0 &&　count　%　5==0　){
+        console.log("FizzBuzz")
+    }
     else
-    if(count%3==0){
-        console.log(F)
+    if(count　%　3==0　){
+        console.log("Fizz")
     }
     else 
-    if(count%5==0){
-        console.log(B)
+    if(count　%　5==0　){
+        console.log("Buzz")
     }
     else console.log(count)
 }
