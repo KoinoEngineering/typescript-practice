@@ -14,7 +14,7 @@ let k = 5
 console.log(k**4)
 
 console.log("##### https://github.com/KoinoEngineering/typescript-practice/issues/2 #####")
-console.log("インクリメント/デクリメント")
+console.log("##### インクリメント/デクリメント #####")
 let i = 0
 console.log(i++)   // -> ？
 console.log(i++)  // -> ？
