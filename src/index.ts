@@ -17,7 +17,7 @@ console.log(i+=3)  // -> ？
 console.log(--i)  // -> ？
 console.log(i-=5)  // -> ？
 
-for ( let count=1; count<101; count++ ) {
+for ( let count=1; count<=100; count++ ) {
     console.log(count)
 }
 
