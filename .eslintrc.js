@@ -15,5 +15,6 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "error",
     semi: ["error", "never", { beforeStatementContinuationChars: "never" }],
     "@typescript-eslint/member-ordering": "warn",
+    semi: ["error", "always"]
   },
 };
