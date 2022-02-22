@@ -7,11 +7,9 @@ console.log(`##### 四則演算 #####`)
 console.log(1234+5678)
 console.log(876-4321)
 console.log(450*1.08)
-let p=1235
-console.log(p*10)
-console.log(p%10)
-let k = 5
-console.log(k**4)
+console.log(1235*10)
+console.log(1235%10)
+console.log(5**4)
 
 console.log("##### https://github.com/KoinoEngineering/typescript-practice/issues/2 #####")
 console.log("##### インクリメント/デクリメント #####")
