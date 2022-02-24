@@ -46,3 +46,37 @@ for (let count = 1; count <= 100; count++) {
     console.log("Buzz");
   } else console.log(count);
 }
+
+console.log(
+    "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
+  );
+console.log("##### 以下の型の変数を宣言し、標準出力に表示する #####");
+const boo: boolean = true;
+const nul: null = null;
+const und: undefined = undefined;
+const num: number = 222;
+const str: string = "2月２２日は猫の日";
+const hai: number[] = [1, 2, 3];
+const kuu = {};
+console.log(boo);
+console.log(nul);
+console.log(und);
+console.log(num);
+console.log(str);
+console.log(hai);
+console.log(kuu);
+
+console.log(
+    "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
+  );
+console.log("##### 処理を実行する #####");
+  type TestType1 = {
+    property1:boolean
+    property2:number
+    property3?:string
+};
+const testType1:TestType1  = {
+    property1:false,
+    property2:1000000,
+};
+console.log(testType1);
