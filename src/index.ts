@@ -46,3 +46,39 @@ for (let count = 1; count <= 100; count++) {
     console.log("Buzz");
   } else console.log(count);
 }
+
+console.log(
+  "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
+);
+console.log("##### 変数宣言の基礎 #####");
+/* eslint-disable @typescript-eslint/no-inferrable-types */
+const boo: boolean = true;
+const nul: null = null;
+const und: undefined = undefined;
+const num: number = 222;
+const str: string = "2月２２日は猫の日";
+const array: number[] = [1, 2, 3];
+const obj = {};
+/* eslint-enable @typescript-eslint/no-inferrable-types */
+console.log(boo);
+console.log(nul);
+console.log(und);
+console.log(num);
+console.log(str);
+console.log(array);
+console.log(obj);
+
+console.log(
+  "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
+);
+console.log("##### 独自な型の定義のしかた #####");
+type TestType1 = {
+  property1: boolean;
+  property2: number;
+  property3?: string;
+};
+const testType1: TestType1 = {
+  property1: false,
+  property2: 1000000,
+};
+console.log(testType1);
