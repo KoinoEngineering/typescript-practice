@@ -51,6 +51,7 @@ console.log(
   "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
 );
 console.log("##### 以下の型の変数を宣言し、標準出力に表示する #####");
+/* eslint-disable @typescript-eslint/no-inferrable-types */
 const boo: boolean = true;
 const nul: null = null;
 const und: undefined = undefined;
@@ -58,6 +59,7 @@ const num: number = 222;
 const str: string = "2月２２日は猫の日";
 const hai: number[] = [1, 2, 3];
 const kuu = {};
+/* eslint-enable @typescript-eslint/no-inferrable-types */
 console.log(boo);
 console.log(nul);
 console.log(und);
