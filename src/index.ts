@@ -50,7 +50,7 @@ for (let count = 1; count <= 100; count++) {
 console.log(
   "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
 );
-console.log("##### 以下の型の変数を宣言し、標準出力に表示する #####");
+console.log("##### 変数宣言の基礎 #####");
 /* eslint-disable @typescript-eslint/no-inferrable-types */
 const boo: boolean = true;
 const nul: null = null;
@@ -71,7 +71,7 @@ console.log(kuu);
 console.log(
   "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
 );
-console.log("##### 処理を実行する #####");
+console.log("##### 独自な型の定義のしかた #####");
 type TestType1 = {
   property1: boolean;
   property2: number;
