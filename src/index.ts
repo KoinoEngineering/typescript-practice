@@ -57,16 +57,16 @@ const nul: null = null;
 const und: undefined = undefined;
 const num: number = 222;
 const str: string = "2月２２日は猫の日";
-const hai: number[] = [1, 2, 3];
-const kuu = {};
+const array: number[] = [1, 2, 3];
+const obj = {};
 /* eslint-enable @typescript-eslint/no-inferrable-types */
 console.log(boo);
 console.log(nul);
 console.log(und);
 console.log(num);
 console.log(str);
-console.log(hai);
-console.log(kuu);
+console.log(array);
+console.log(obj);
 
 console.log(
   "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
