@@ -48,8 +48,8 @@ for (let count = 1; count <= 100; count++) {
 }
 
 console.log(
-    "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
-  );
+  "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
+);
 console.log("##### 以下の型の変数を宣言し、標準出力に表示する #####");
 const boo: boolean = true;
 const nul: null = null;
@@ -67,16 +67,16 @@ console.log(hai);
 console.log(kuu);
 
 console.log(
-    "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
-  );
+  "##### https://github.com/KoinoEngineering/typescript-practice/issues/5 #####"
+);
 console.log("##### 処理を実行する #####");
-  type TestType1 = {
-    property1:boolean
-    property2:number
-    property3?:string
+type TestType1 = {
+  property1: boolean;
+  property2: number;
+  property3?: string;
 };
-const testType1:TestType1  = {
-    property1:false,
-    property2:1000000,
+const testType1: TestType1 = {
+  property1: false,
+  property2: 1000000,
 };
 console.log(testType1);
